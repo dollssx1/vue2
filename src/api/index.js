@@ -7,4 +7,13 @@ async function getUser() {
   return res.data.data;
 }
 
+function test() {
+  console.log("dd");
+}
+
+test();
+test();
+test();
+test();
+
 export { getUser };

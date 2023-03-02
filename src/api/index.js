@@ -7,6 +7,4 @@ async function getUser() {
   return res.data.data;
 }
 
-console.log("dd");
-
 export { getUser };
